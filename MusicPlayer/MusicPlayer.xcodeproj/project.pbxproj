@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3D5D9F815FDDD1E000A0790 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D5D9F715FDDD1E000A0790 /* UIKit.framework */; };
+		C3D5D9FA15FDDD1E000A0790 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D5D9F915FDDD1E000A0790 /* Foundation.framework */; };
+		C3D5D9FC15FDDD1E000A0790 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D5D9FB15FDDD1E000A0790 /* CoreGraphics.framework */; };
+		C3D5DA0215FDDD1E000A0790 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3D5DA0015FDDD1E000A0790 /* InfoPlist.strings */; };
+		C3D5DA0415FDDD1E000A0790 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D5DA0315FDDD1E000A0790 /* main.m */; };
+		C3D5DA0815FDDD1E000A0790 /* LLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D5DA0715FDDD1E000A0790 /* LLAppDelegate.m */; };
+		C3D5DA0B15FDDD1E000A0790 /* LLFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D5DA0A15FDDD1E000A0790 /* LLFirstViewController.m */; };
+		C3D5DA0D15FDDD1E000A0790 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D5DA0C15FDDD1E000A0790 /* first.png */; };
+		C3D5DA0F15FDDD1E000A0790 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D5DA0E15FDDD1E000A0790 /* first@2x.png */; };
+		C3D5DA1215FDDD1E000A0790 /* LLSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D5DA1115FDDD1E000A0790 /* LLSecondViewController.m */; };
+		C3D5DA1415FDDD1E000A0790 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D5DA1315FDDD1E000A0790 /* second.png */; };
+		C3D5DA1615FDDD1E000A0790 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D5DA1515FDDD1E000A0790 /* second@2x.png */; };
+		C3D5DA1915FDDD1E000A0790 /* LLFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3D5DA1715FDDD1E000A0790 /* LLFirstViewController.xib */; };
+		C3D5DA1C15FDDD1E000A0790 /* LLSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3D5DA1A15FDDD1E000A0790 /* LLSecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C3D5D9F315FDDD1E000A0790 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D5D9F715FDDD1E000A0790 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C3D5D9F915FDDD1E000A0790 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3D5D9FB15FDDD1E000A0790 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3D5D9FF15FDDD1E000A0790 /* MusicPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicPlayer-Info.plist"; sourceTree = "<group>"; };
+		C3D5DA0115FDDD1E000A0790 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3D5DA0315FDDD1E000A0790 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3D5DA0515FDDD1E000A0790 /* MusicPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusicPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		C3D5DA0615FDDD1E000A0790 /* LLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLAppDelegate.h; sourceTree = "<group>"; };
+		C3D5DA0715FDDD1E000A0790 /* LLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLAppDelegate.m; sourceTree = "<group>"; };
+		C3D5DA0915FDDD1E000A0790 /* LLFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLFirstViewController.h; sourceTree = "<group>"; };
+		C3D5DA0A15FDDD1E000A0790 /* LLFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLFirstViewController.m; sourceTree = "<group>"; };
+		C3D5DA0C15FDDD1E000A0790 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		C3D5DA0E15FDDD1E000A0790 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		C3D5DA1015FDDD1E000A0790 /* LLSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLSecondViewController.h; sourceTree = "<group>"; };
+		C3D5DA1115FDDD1E000A0790 /* LLSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLSecondViewController.m; sourceTree = "<group>"; };
+		C3D5DA1315FDDD1E000A0790 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		C3D5DA1515FDDD1E000A0790 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		C3D5DA1815FDDD1E000A0790 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LLFirstViewController.xib; sourceTree = "<group>"; };
+		C3D5DA1B15FDDD1E000A0790 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LLSecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3D5D9F015FDDD1E000A0790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D5D9F815FDDD1E000A0790 /* UIKit.framework in Frameworks */,
+				C3D5D9FA15FDDD1E000A0790 /* Foundation.framework in Frameworks */,
+				C3D5D9FC15FDDD1E000A0790 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3D5D9E815FDDD1E000A0790 = {
+			isa = PBXGroup;
+			children = (
+				C3D5D9FD15FDDD1E000A0790 /* MusicPlayer */,
+				C3D5D9F615FDDD1E000A0790 /* Frameworks */,
+				C3D5D9F415FDDD1E000A0790 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3D5D9F415FDDD1E000A0790 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3D5D9F315FDDD1E000A0790 /* MusicPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3D5D9F615FDDD1E000A0790 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3D5D9F715FDDD1E000A0790 /* UIKit.framework */,
+				C3D5D9F915FDDD1E000A0790 /* Foundation.framework */,
+				C3D5D9FB15FDDD1E000A0790 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3D5D9FD15FDDD1E000A0790 /* MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				C3D5DA0615FDDD1E000A0790 /* LLAppDelegate.h */,
+				C3D5DA0715FDDD1E000A0790 /* LLAppDelegate.m */,
+				C3D5DA0915FDDD1E000A0790 /* LLFirstViewController.h */,
+				C3D5DA0A15FDDD1E000A0790 /* LLFirstViewController.m */,
+				C3D5DA0C15FDDD1E000A0790 /* first.png */,
+				C3D5DA0E15FDDD1E000A0790 /* first@2x.png */,
+				C3D5DA1015FDDD1E000A0790 /* LLSecondViewController.h */,
+				C3D5DA1115FDDD1E000A0790 /* LLSecondViewController.m */,
+				C3D5DA1315FDDD1E000A0790 /* second.png */,
+				C3D5DA1515FDDD1E000A0790 /* second@2x.png */,
+				C3D5DA1715FDDD1E000A0790 /* LLFirstViewController.xib */,
+				C3D5DA1A15FDDD1E000A0790 /* LLSecondViewController.xib */,
+				C3D5D9FE15FDDD1E000A0790 /* Supporting Files */,
+			);
+			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+		C3D5D9FE15FDDD1E000A0790 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3D5D9FF15FDDD1E000A0790 /* MusicPlayer-Info.plist */,
+				C3D5DA0015FDDD1E000A0790 /* InfoPlist.strings */,
+				C3D5DA0315FDDD1E000A0790 /* main.m */,
+				C3D5DA0515FDDD1E000A0790 /* MusicPlayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3D5D9F215FDDD1E000A0790 /* MusicPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3D5DA1F15FDDD1E000A0790 /* Build configuration list for PBXNativeTarget "MusicPlayer" */;
+			buildPhases = (
+				C3D5D9EF15FDDD1E000A0790 /* Sources */,
+				C3D5D9F015FDDD1E000A0790 /* Frameworks */,
+				C3D5D9F115FDDD1E000A0790 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicPlayer;
+			productName = MusicPlayer;
+			productReference = C3D5D9F315FDDD1E000A0790 /* MusicPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3D5D9EA15FDDD1E000A0790 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LL;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = gem;
+			};
+			buildConfigurationList = C3D5D9ED15FDDD1E000A0790 /* Build configuration list for PBXProject "MusicPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C3D5D9E815FDDD1E000A0790;
+			productRefGroup = C3D5D9F415FDDD1E000A0790 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3D5D9F215FDDD1E000A0790 /* MusicPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3D5D9F115FDDD1E000A0790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D5DA0215FDDD1E000A0790 /* InfoPlist.strings in Resources */,
+				C3D5DA0D15FDDD1E000A0790 /* first.png in Resources */,
+				C3D5DA0F15FDDD1E000A0790 /* first@2x.png in Resources */,
+				C3D5DA1415FDDD1E000A0790 /* second.png in Resources */,
+				C3D5DA1615FDDD1E000A0790 /* second@2x.png in Resources */,
+				C3D5DA1915FDDD1E000A0790 /* LLFirstViewController.xib in Resources */,
+				C3D5DA1C15FDDD1E000A0790 /* LLSecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3D5D9EF15FDDD1E000A0790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D5DA0415FDDD1E000A0790 /* main.m in Sources */,
+				C3D5DA0815FDDD1E000A0790 /* LLAppDelegate.m in Sources */,
+				C3D5DA0B15FDDD1E000A0790 /* LLFirstViewController.m in Sources */,
+				C3D5DA1215FDDD1E000A0790 /* LLSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C3D5DA0015FDDD1E000A0790 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3D5DA0115FDDD1E000A0790 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C3D5DA1715FDDD1E000A0790 /* LLFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3D5DA1815FDDD1E000A0790 /* en */,
+			);
+			name = LLFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		C3D5DA1A15FDDD1E000A0790 /* LLSecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3D5DA1B15FDDD1E000A0790 /* en */,
+			);
+			name = LLSecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3D5DA1D15FDDD1E000A0790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3D5DA1E15FDDD1E000A0790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3D5DA2015FDDD1E000A0790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicPlayer/MusicPlayer-Prefix.pch";
+				INFOPLIST_FILE = "MusicPlayer/MusicPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C3D5DA2115FDDD1E000A0790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicPlayer/MusicPlayer-Prefix.pch";
+				INFOPLIST_FILE = "MusicPlayer/MusicPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3D5D9ED15FDDD1E000A0790 /* Build configuration list for PBXProject "MusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D5DA1D15FDDD1E000A0790 /* Debug */,
+				C3D5DA1E15FDDD1E000A0790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3D5DA1F15FDDD1E000A0790 /* Build configuration list for PBXNativeTarget "MusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D5DA2015FDDD1E000A0790 /* Debug */,
+				C3D5DA2115FDDD1E000A0790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3D5D9EA15FDDD1E000A0790 /* Project object */;
+}
